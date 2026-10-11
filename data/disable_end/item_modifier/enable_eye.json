@@ -1,0 +1,9 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_item",
+            "item": "minecraft:ender_eye"
+        }
+    ]
+}

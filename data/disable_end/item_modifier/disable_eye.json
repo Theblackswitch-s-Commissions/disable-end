@@ -1,0 +1,28 @@
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_item",
+            "item": "minecraft:poisonous_potato"
+        },
+        {
+            "type": "set_components",
+            "components": {
+                "minecraft:item_model": "minecraft:ender_eye",
+                "minecraft:item_name": {
+                    "translate": "item.minecraft.ender_eye"
+                },
+                "consumable": {
+                    "consume_seconds": 99999,
+                    "animation": "none",
+                    "has_consume_particles": false,
+                    "sound": "intentionally_empty"
+                },
+                "custom_data": {
+                    "de.disabled_eye": true
+                },
+                "!food": {}
+            }
+        }
+    ]
+}
